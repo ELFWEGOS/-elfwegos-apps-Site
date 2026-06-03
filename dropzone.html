@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DropZone - ELFWEGOS APPS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>DropZone</h1>
+        <p>Évitez le désordre dans vos dossiers de téléchargement ou de travail.</p>
+        <div class="header-buttons">
+            <a href="index.html" class="btn btn-secondary">Retour à l'accueil</a>
+            <a href="https://drive.google.com/file/d/1nstjmlCmKqc_R7wkKbloqppRFxz7hGBl/view" class="btn btn-primary" target="_blank">Télécharger le ZIP Portable</a>
+        </div>
+    </header>
+
+    <main class="container app-details">
+        
+        <section class="info-block">
+            <h2>À quoi ça sert ?</h2>
+            <p>DropZone est une application de bureau développée en Java qui permet d'organiser automatiquement les fichiers d'un dossier selon des règles personnalisables. L'objectif est simple : déplacer automatiquement les fichiers vers les bons emplacements.</p>
+        </section>
+
+        <section class="info-block">
+            <h2>Fonctionnalités actuelles</h2>
+            <ul>
+                <li>Création de règles de tri personnalisées</li>
+                <li>Déplacement automatique des fichiers selon leur extension</li>
+                <li>Gestion de plusieurs catégories</li>
+                <li>Sauvegarde de la configuration</li>
+                <li>Interface graphique moderne avec JavaFX</li>
+                <li>Journalisation (logs) des actions effectuées</li>
+            </ul>
+        </section>
+
+        <section class="info-block update-notice-block">
+            <h2> Système de Mise à Jour Automatique</h2>
+            <p>L'application gère ses propres mises à jour. Vous n'avez pas besoin de télécharger un nouveau dossier ou de remplacer vos fichiers manuellement, sauf cas très exceptionnel (si le système de mise à jour lui-même est modifié).</p>
+            <blockquote>
+                <strong>Note importante :</strong> Actuellement, lorsque vous lancez une mise à jour, l'application se ferme et rien ne s'affiche à l'écran pendant le téléchargement. Pas de panique ! L'application se rallumera toute seule une fois la mise à jour terminée. Une vraie fenêtre de progression de téléchargement sera ajoutée dans une prochaine version.
+            </blockquote>
+        </section>
+
+        <section class="info-block">
+            <h2>Exemple de fonctionnement</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Extension</th>
+                        <th>Destination</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>.png, .jpg</td><td>Images</td></tr>
+                    <tr><td>.mp4</td><td>Vidéos</td></tr>
+                    <tr><td>.pdf</td><td>Documents</td></tr>
+                    <tr><td>.zip</td><td>Archives</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="info-block">
+            <h2>Installation & Lancement</h2>
+            <p>L'application est <strong>100% portable</strong>. Tout est déjà intégré à l'intérieur du dossier (Java, JavaFX, etc.). Vous n'avez aucun prérequis à installer sur votre ordinateur.</p>
+            <p>Pour lancer l'application, suivez ces deux étapes simples :</p>
+            <ol style="padding-left: 1.5rem; margin-top: 0.5rem; margin-bottom: 1rem;">
+                <li>Dézippez l'archive téléchargée où vous le souhaitez.</li>
+                <li>Double-cliquez sur le fichier <strong><code>start.bat</code></strong> pour démarrer DropZone.</li>
+            </ol>
+        </section>
+
+        <section class="info-block">
+            <h2>Technologies utilisées</h2>
+            <p class="tech-tags">
+                <span>Java (Intégré)</span>
+                <span>JavaFX (Intégré)</span>
+                <span>Maven</span>
+                <span>Gson</span>
+                <span>Ikonli</span>
+            </p>
+        </section>
+
+        <section class="info-block status-block">
+            <h2>État du projet</h2>
+            <p>DropZone est en cours de développement actif. Fonctionnalités à venir :</p>
+            <ul>
+                <li>Interface visuelle pour la progression des téléchargements de mise à jour</li>
+                <li>Surveillance continue de dossiers en temps réel (Watchlist)</li>
+                <li>Règles de tri avancées</li>
+                <li>Statistiques d'utilisation</li>
+            </ul>
+        </section>
+
+    </main>
+    <footer>
+        <div class="support-footer">
+            <div class="support-text">
+                <h4>Un problème ou une suggestion ?</h4>
+                <p>Aidez-moi à améliorer mes applications en signalant les bugs.</p>
+            </div>
+            <div class="support-buttons">
+                <a href="https://github.com" target="_blank" class="btn btn-bug">Signalement général (GitHub)</a>
+            </div>
+        </div>
+        <p>&copy; 2026 ELFWEGOS | <a href="https://github.com/ELFWEGOS/DropZone" target="_blank">Voir sur GitHub</a></p>
+    </footer>
+
+</body>
+</html>
